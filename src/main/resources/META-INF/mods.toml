@@ -1,0 +1,26 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="clonemod"
+version="1.0.0"
+displayName="Clone Mod"
+description='''
+Every time you level up, a clone of you appears. Right-click a clone to give it a job:
+follow, stay, woodcutter, miner, farmer or guard.
+'''
+
+[[dependencies.clonemod]]
+modId="forge"
+mandatory=true
+versionRange="[47,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.clonemod]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1,1.21)"
+ordering="NONE"
+side="BOTH"
